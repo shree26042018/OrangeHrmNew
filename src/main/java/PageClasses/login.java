@@ -19,6 +19,7 @@ public class login
 	@FindBy(xpath="//*[@name='password']")WebElement password;
 	@FindBy(xpath="//*[@type='submit']")WebElement login;
 	
+	
 	public login(WebDriver driver)
 	{
 		this.driver=driver;
@@ -42,6 +43,11 @@ public class login
 	public void logIn() 
 	{
 		login.click();
+	}
+	
+	public void popup() 
+	{
+		driver.switchTo().alert().accept();
 	}
 	
 	

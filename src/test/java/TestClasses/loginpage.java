@@ -25,4 +25,11 @@ public class loginpage extends BaseClass
 		
 		lg.logIn();
 	}
+	
+	/*@Test(priority=4)
+	public void popup1()
+	{
+		
+		lg.popup();
+	}*/
 }

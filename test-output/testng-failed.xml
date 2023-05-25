@@ -5,8 +5,8 @@
     <classes>
       <class name="TestClasses.loginpage">
         <methods>
+          <include name="popup1"/>
           <include name="createobject"/>
-          <include name="Password1"/>
           <include name="launchChrome"/>
         </methods>
       </class> <!-- TestClasses.loginpage -->
